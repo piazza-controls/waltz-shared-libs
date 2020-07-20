@@ -1,0 +1,42 @@
+{
+  "name": "@waltz-controls/waltz-shared-libs",
+  "version": "1.0.0",
+  "description": "Waltz controls shared modules",
+  "main": "dist/vendor.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waltz-controls/waltz-shared-libs.git"
+  },
+  "keywords": [
+    "waltz",
+    "waltz-controls"
+  ],
+  "author": "kapot65",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waltz-controls/waltz-shared-libs/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.4.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
+  }
+}
