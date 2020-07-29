@@ -1,6 +1,6 @@
 {
   "name": "@waltz-controls/waltz-shared-libs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Waltz controls shared modules",
   "main": "dist/vendor.js",
   "directories": {
@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.4.0",
+    "plotly.js": "^1.54.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",

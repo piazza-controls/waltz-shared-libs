@@ -4,7 +4,10 @@ const path = require("path");
 module.exports = {
     context: __dirname,
     entry: {
-        vendor: ['react', 'react-dom', 'redux', 'react-redux', '@reduxjs/toolkit'],
+        vendor: [
+            'react', 'react-dom', 'redux', 'react-redux', '@reduxjs/toolkit',
+            'plotly.js'
+        ],
     },
     mode: "production",
     output: {
