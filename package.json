@@ -1,6 +1,6 @@
 {
-  "name": "@piazza-controls/waltz-shared-libs",
-  "version": "1.0.2",
+  "name": "@waltz-controls/waltz-shared-libs",
+  "version": "1.0.3",
   "description": "Waltz controls shared modules",
   "main": "dist/vendor.js",
   "directories": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/piazza-controls/waltz-shared-libs.git"
+    "url": "git+https://github.com/waltz-controls/waltz-shared-libs.git"
   },
   "keywords": [
     "waltz",
@@ -22,7 +22,7 @@
   "author": "kapot65",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/piazza-controls/waltz-shared-libs/issues"
+    "url": "https://github.com/waltz-controls/waltz-shared-libs/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
